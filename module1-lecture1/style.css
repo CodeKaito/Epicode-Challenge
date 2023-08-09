@@ -1,0 +1,49 @@
+* {
+    margin: 10;
+    padding: 10;
+}
+
+body {
+    font-family: 'CustomFont', Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'CustomFont', Arial, sans-serif;
+}
+
+.container {
+    margin-left: 40px;
+    height: 100vh;
+    margin-right: 40px;
+}
+
+.header-text {
+    justify-content: center;
+    text-align: center;
+}
+
+.header-container-image {
+    display: flex;
+    margin-left: 20rem;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-right: 20rem;
+}
+
+.header-container-image-text {
+    margin-bottom: 10vh;
+}
+
+.header-image {
+    border-radius: 15%;
+}
+
+.header-title {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.lista {
+    margin-top: 40px;
+}
