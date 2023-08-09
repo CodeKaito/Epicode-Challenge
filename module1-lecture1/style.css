@@ -12,9 +12,9 @@ h1 {
 }
 
 .container {
-    margin-left: 40px;
+    margin-left: 20rem;
     height: 100vh;
-    margin-right: 40px;
+    margin-right: 20rem;
 }
 
 .header-text {
@@ -28,7 +28,7 @@ h1 {
     align-items: center;
     justify-content: center;
     justify-content: space-between;
-    margin-right: 20rem;
+    margin-right: 30rem;
 }
 
 .header-container-image-text {
@@ -41,9 +41,40 @@ h1 {
 
 .header-title {
     font-weight: 100;
-    font-size: 20px;
+    font-size: 35px;
 }
 
 .lista {
+    display: flex;
     margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
+
+.tabella {
+    margin-top: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+
+
+
