@@ -16,4 +16,4 @@ Per accedere a un progetto o a una sfida specifica, vai nella cartella corrispon
 
 Se desideri contribuire al repository, ad esempio fornendo soluzioni alternative o miglioramenti alle istruzioni, sei libero di farlo. Basta seguire la procedura standard di "fork" e "pull request".
 
-![Epicode Logo](https://www.epicode.it/assets/images/logo.png)
+![Epicode Logo](http://epicode.com/wp-content/uploads/2022/05/footer-logo.svg)
