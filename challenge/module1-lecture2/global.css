@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-urbanist: Urbanist;
+  --font-cabin: Cabin;
+  --font-bebas-neue: "Bebas Neue";
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-49xl: 68px;
+  --font-size-13xl: 32px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-lightgray: #d2d2d2;
+  --color-darkslategray: #2e2e2e;
+  --color-darkgray: #afa8a8;
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-7xs: 6px;
+  --gap-xs: 12px;
+
+  /* Paddings */
+  --padding-lgi: 19px;
+
+  /* border radiuses */
+  --br-11xl: 30px;
+  --br-9xs: 4px;
+  --br-7xs: 6px;
+}
