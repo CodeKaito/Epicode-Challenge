@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-3.19/Inter\ Web/woff2') format('woff2'),
+        url('Inter-3.19/Inter\ Web/woff') format('woff');
+    /* Add more font formats if available */
+    font-weight: normal; /* Or specify the weight you need */
+    font-style: normal; /* Or specify the style you need */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+}
+
+body {
+    font-family: 'Inter', sans-serif; /* Use Inter font, and fall back to a generic sans-serif font */
+}
+
+.makers-main {
+    display: flex;
+    width: 1600px;
+    height: 519px;
+    padding: 0px 20px;
+    justify-content: space-between;
+    gap: 24px;
+    align-items: center;
+    background: #FFF;
+}
+
+.makers-container {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 10px;
+}
+
+.makers-textside {
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 10px;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+h5 {
+    font-weight: 100;
+}
+
+.makers-image {
+    width: 660px;
+    height: 519px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+img {
+    display: flex;
+    width: 660px;
+    object-fit: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+.makers-features {
+    width: 1440px; 
+    height: 515px; 
+    padding-right: 20px; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+}
+
+.makers-features-container {
+    width: 800px;
+    padding-top: 48px; 
+    padding-bottom: 48px; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 24px; 
+    display: inline-flex"
+}
+
+.makers-features-text-container {
+    flex: 1 1 0; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 10px; display: 
+    inline-flex"
+}
