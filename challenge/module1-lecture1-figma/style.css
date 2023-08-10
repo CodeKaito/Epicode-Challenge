@@ -22,8 +22,7 @@ body {
     width: 1600px;
     height: 519px;
     padding: 0px 20px;
-    justify-content: space-between;
-    gap: 24px;
+    justify-content: center;
     align-items: center;
     background: #FFF;
 }
@@ -34,28 +33,38 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
-    padding: 10px;
 }
 
 .makers-textside {
-    margin-left: 200px;
+    margin-left: 100px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 24px;
     padding: 10px;
+    gap: 10px;
 }
 
-h1 {
+.makers-textside-name {
+    text-transform: uppercase; 
+    word-wrap: break-word;
     font-weight: 600;
 }
 
-h2 {
-    font-weight: 300;
+.makers-textside-title {
+    align-self: stretch; 
+    text-align: center; 
+    font-size: 24px; 
+    text-transform: uppercase; 
+    word-wrap: break-word;
+    font-weight: 100;
+
 }
 
-h5 {
+.makers-textside-subtitle {
+    align-self: stretch; 
     font-weight: 100;
+    text-transform: uppercase; 
+    word-wrap: break-word;
 }
 
 .makers-image {
@@ -106,4 +115,275 @@ img {
     align-items: flex-start; 
     gap: 10px; display: 
     inline-flex"
+}
+
+.makers-features-text-content {
+    align-self: stretch; 
+    height: 169px; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 24px; 
+    display: flex;
+}
+
+.makers-features-text-subtitle {
+    align-self: stretch; 
+    text-align: center; 
+    font-size: 24px; 
+    font-weight: 100; 
+    text-transform: uppercase; 
+    word-wrap: break-word;
+}
+
+.makers-features-text-title {
+    align-self: stretch; 
+    text-align: center; 
+    font-size: 48px; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+
+.list-content {
+    align-self: stretch; 
+    height: 268px; 
+    padding-bottom: 64px; 
+    background: white; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    display: flex;
+}
+
+.list-content-grid {
+    width: 1100px; 
+    flex: 1 1 0; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    gap: 16px; 
+    display: inline-flex;
+}
+
+.list-content-object-left {
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 32px; 
+    display: inline-flex;
+}
+
+.list-content-object-left-top {
+    align-self: stretch; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 16px; 
+    display: inline-flex"
+}
+
+.list-content-object-left-top-text {
+    flex: 1 1 0; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 8px; 
+    display: inline-flex;
+}
+
+.studying {
+    align-self: stretch; 
+    color: black; 
+    font-size: 24px; 
+    font-weight: 600; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}
+
+.studying-comment {
+    align-self: stretch; 
+    color: #0A2A42; 
+    font-size: 18px; 
+    font-weight: 400; 
+    line-height: 27px; 
+    word-wrap: break-word;
+}
+
+.list-content-object-left-bot {
+    align-self: stretch; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 16px; display: 
+    inline-flex;
+}
+
+.list-content-object-left-bot-text {
+    flex: 1 1 0; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 8px;
+    display: inline-flex;
+}
+
+.hiking {
+    align-self: stretch; 
+    color: black; 
+    font-size: 24px;
+    font-weight: 600; 
+    line-height: 24px; 
+    word-wrap: break-word"
+}
+
+.hiking-comment {
+    align-self: 
+    stretch; color: #0A2A42; 
+    font-size: 18px;
+    font-weight: 400; 
+    line-height: 27px; 
+    word-wrap: break-word"
+}
+
+.list-content-object-right {
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 32px; 
+    display: inline-flex;
+}
+
+.list-content-object-right-top {
+    align-self: stretch; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 16px; 
+    display: inline-flex;
+}
+
+.list-content-object-right-top-text {
+    flex: 1 1 0; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 8px; 
+    display: inline-flex;
+}
+
+.travelling {
+    align-self: stretch; 
+    color: black; 
+    font-size: 24px; 
+    font-weight: 600; 
+    line-height: 24px; 
+    word-wrap: break-word"
+}
+
+.travelling-comment {
+    align-self: stretch; 
+    color: #0A2A42; 
+    font-size: 18px; 
+    font-weight: 400; 
+    line-height: 27px; 
+    word-wrap: break-word"
+}
+
+.list-content-object-right-bot {
+    align-self: stretch; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 16px; 
+    display: inline-flex;
+}
+
+.list-content-object-right-bot-text {
+    flex: 1 1 0;
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: flex-start; 
+    gap: 8px;
+    display: inline-flex;
+}
+
+.writing {
+    align-self: stretch; color: black; 
+    font-size: 24px; 
+    font-weight: 600; 
+    line-height: 24px; 
+    word-wrap: break-word"
+}
+
+.footer {
+    width: 1440px; 
+    height: 336px; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+    background: white; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+}
+
+.footer-container {
+    width: 1000px; 
+    padding-top: 32px; 
+    padding-bottom: 32px; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    gap: 24px; 
+    display: inline-flex;
+}
+
+.footer-column {
+    width: 240px; 
+    height: 127px; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 16px; 
+    display: inline-flex;
+}
+
+.footer-title {
+    align-self: stretch; 
+    color: #678398; 
+    font-size: 14px; 
+    font-weight: 500; 
+    line-height: 21px; 
+    word-wrap: break-word;
+}
+
+.footer-social-media-container {
+    align-self: stretch; 
+    padding-top: 8px; 
+    padding-bottom: 8px; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 24px; 
+    display: inline-flex;
+}
+
+.MakersSocialMediaIcons {
+    width: 24px; 
+    height: 24px; 
+    justify-content: center; 
+    align-items: center; 
+    display: flex;
+}
+
+.Column {
+    width: 300px; 
+    height: 130px; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: flex-end; 
+    gap: 20px; 
+    display: inline-flex;
+}
+
+.Company {
+    align-self: stretch; 
+    height: 31px; 
+    color: #678398; 
+    font-size: 14px; 
+    font-weight: 50; 
+    word-wrap: break-word;
 }
