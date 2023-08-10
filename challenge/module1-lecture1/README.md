@@ -1,4 +1,4 @@
-Visit the webpage here: https://codekaito.github.io/Epicode-Challenge/challenge/module1-lecture1
+Visit the webpage here: https://codekaito.github.io/Epicode-Challenge/challenge/module1-lecture1-figma
 
 # HTML BASICS - Crea la tua prima pagina HTML
 - Utilizza tutti i tag che hai imparato per creare la tua “pagina di presentazione”
