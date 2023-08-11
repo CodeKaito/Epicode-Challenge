@@ -47,6 +47,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   justify-content: flex-start;
   gap: var(--gap-7xs);
 }
+
 .frame-item {
   position: relative;
   border-radius: var(--br-9xs);
@@ -55,6 +56,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   width: 22.22px;
   height: 20px;
 }
+
 .rectangle-group {
   position: absolute;
   top: 728px;
@@ -114,15 +116,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   left: 439px;
   width: 121px;
 }
-.ellipse-icon,
 .frame {
   position: absolute;
   top: 590px;
   left: 389px;
   width: 68px;
   height: 69px;
-}
-.frame {
   top: -5px;
   left: 754px;
   width: 697px;
