@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Importa il font Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+/* Utilizza il font Montserrat peso 400 */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+/* Utilizza il font Montserrat peso 600 italic */
+h1 {
+    font-family: 'Prata', sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+h3 {
+    font-family: 'Prata', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 1px;
+    margin-bottom: 0;
+}
+hr {
+    margin-top: 20px;
+    margin-top: 20px;
+}
+ul {
+    margin-top: 10px;
+}
+li {
+    list-style: none; /* Rimuove i punti */
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    border-bottom: 1px;
+    margin-bottom: 10px;
+    border-color: #dfdfdf;
+}
+a {
+    text-decoration: none;
+}
+p {
+    margin-top: 20px;
+}
+.list-content {
+    color: #2d6950;
+}
+footer {
+    background-color: black;
+    padding: 16px;
+}
+.main-section {
+    padding: 20px;
+}
+.image-container {
+    height: 500px;
+    
+    /* Regola il comportamento dell'immagine di sfondo */
+    background-size: cover; /* o 'contain' o altre opzioni */
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* Altre proprietà di stile per il contenitore */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.lago-di-braies {
+    background-image: url('assets/lake-braies.jpg');
+}
+.lago-di-dobbiaco {
+    background-image: url('assets/lake-dobbiaco.jpg');
+}
+.lago-di-anterselva {
+    background-image: url('assets/lake-anterselva.jpg');
+}
+.lago-di-landro {
+    background-image: url('assets/lake-landro.jpg');
+}
+.lago-hermoso {
+    background-image: url('assets/lake-hermoso.jpg');
+}
+.author {
+    font-size: 600;
+    font-style: italic;
+}
+.luoghi-correlati {
+    padding: 22px;
+    margin-top: 56px;
+    color: white;
+    background: linear-gradient(to bottom, #5a917a, #03644c);
+    border-radius: 6px;
+}
+.homepage {
+    color: white;
+}
