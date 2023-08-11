@@ -1,4 +1,4 @@
-# Epicode Web Development Pre-Course Repository
+# Epicode Web Development Pre-Course Repository ![Epicode Logo](http://epicode.com/wp-content/uploads/2022/05/footer-logo.svg)
 
 Benvenuto nel repository del pre-corso di Web Development di Epicode! In questo repository, troverai i progetti e le sfide assegnate durante il pre-corso. Queste attività ti aiuteranno a sviluppare le tue competenze di programmazione e prepararti per il corso completo di Web Development.
 
@@ -8,6 +8,8 @@ Benvenuto nel repository del pre-corso di Web Development di Epicode! In questo 
 
 - 📁 **Challenge**: Qui troverai le sfide di programmazione assegnate. Ogni sfida avrà la propria cartella con istruzioni e soluzioni suggerite.
 
+- 📁 **Procedi alla navigazione**: Accedi quindi alla prossima sottocartella cliccando [qui](https://codekaito.github.io/Epicode-Challenge/challenge/)
+
 ## Guida alla Navigazione
 
 Per accedere a un progetto o a una sfida specifica, vai nella cartella corrispondente e segui le istruzioni fornite. Assicurati di leggere attentamente le istruzioni e di seguire le linee guida di consegna, se fornite.
@@ -16,4 +18,4 @@ Per accedere a un progetto o a una sfida specifica, vai nella cartella corrispon
 
 Se desideri contribuire al repository, ad esempio fornendo soluzioni alternative o miglioramenti alle istruzioni, sei libero di farlo. Basta seguire la procedura standard di "fork" e "pull request".
 
-![Epicode Logo](http://epicode.com/wp-content/uploads/2022/05/footer-logo.svg)
+
