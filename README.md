@@ -8,7 +8,7 @@ Benvenuto nel repository del pre-corso di Web Development di Epicode! In questo 
 
 - 📁 **Challenge**: Qui troverai le sfide di programmazione assegnate. Ogni sfida avrà la propria cartella con istruzioni e soluzioni suggerite.
 
-- Accedi quindi alla prossima sottocartella cliccando [qui](https://codekaito.github.io/Epicode-Challenge/challenge/)
+- 📁 **Procedi alla navigazione**: Accedi quindi alla prossima sottocartella cliccando [qui](https://codekaito.github.io/Epicode-Challenge/challenge/)
 
 ## Guida alla Navigazione
 
