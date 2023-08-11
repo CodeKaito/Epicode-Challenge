@@ -48,13 +48,13 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   gap: var(--gap-7xs);
 }
 
-.frame-item {
-  position: relative;
-  border-radius: var(--br-9xs);
-  border: 1px solid var(--color-white);
-  box-sizing: border-box;
-  width: 22.22px;
-  height: 20px;
+.checkbox-checkmark {
+  top: 0;
+  left: 0;
+  height: 20px; /* Adjust this value based on your design */
+  width: 20px; /* Adjust this value based on your design */
+  background-color: #eee; /* Background color of the checkbox */
+  border-radius: 4px; /* Rounded corners */
 }
 
 .rectangle-group {

@@ -80,9 +80,9 @@
               </div>
               <div class="rectangle-parent5">
                   <input type="checkbox">
-                  <label for="checkbox">Accept Terms and Conditions</label>
+                  <label for="radio">Accept Terms and Conditions</label>
               </div>
-              <input type="submit" value="Register" class="register-submit">
+              <input type="submit" value="Register" class="register-submit" onclick="showAlert()">
             </div>
           </div>
         </div>
@@ -92,32 +92,38 @@
         <img class="image-icon" alt="" src="./public/image@2x.png" />
         <div class="tell-us-what">Tell us what you are into</div>
         <div class="rectangle-parent">
-          <div class="frame-item"></div>
-          <input type="checkbox" class="frame-item">
+          <input type="checkbox" class="checkbox-checkmark">
           <div class="classic">HINDI</div>
         </div>
         <div class="rectangle-group">
-          <div class="frame-item"></div>
+          <input type="checkbox" class="checkbox-checkmark">
           <div class="classic">METAL</div>
         </div>
         <div class="rectangle-container">
-          <div class="frame-item"></div>
+          <input type="checkbox" class="checkbox-checkmark">
           <div class="classic">R&B</div>
         </div>
         <div class="rectangle-parent1">
-          <div class="frame-item"></div>
+          <input type="checkbox" class="checkbox-checkmark">
           <div class="classic">SOFT</div>
         </div>
         <div class="rectangle-parent2">
-          <div class="frame-item"></div>
+          <input type="checkbox" class="checkbox-checkmark">
           <div class="classic">KPOP</div>
         </div>
         <div class="rectangle-parent3">
-          <div class="frame-item"></div>
+          <input type="checkbox" class="checkbox-checkmark">
           <div class="classic">ROCK</div>
         </div>
       </div>
 
     </div>
   </body>
+
+  <script>
+    function showAlert() {
+      alert('Sent registration!'); // Mostra un alert quando il pulsante viene cliccato
+    }
+    </script>
+
 </html>
