@@ -34,3 +34,7 @@ body {
   --br-9xs: 4px;
   --br-7xs: 6px;
 }
+
+a {
+  text-decoration: none;
+}

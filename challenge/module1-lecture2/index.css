@@ -3,6 +3,23 @@
   padding: 0;
 }
 
+
+input[type="date"] {
+  padding: 10px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  width: 100%;
+  max-width: 500px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: #3498db;
+  font-size: 14px;
+  padding: 0;
+}
+
 .register {
   margin-left: 250px;
 }
@@ -196,7 +213,7 @@
   justify-content: flex-start;
   gap: var(--gap-7xs);
 }
-.australia1-1-icon {
+.it-icon {
   position: relative;
   width: 24.3px;
   height: 16px;
@@ -215,13 +232,13 @@
   align-items: center;
   gap: var(--gap-xs);
 }
-.australia1-1-parent,
+.it-parent-1,
 .it-parent,
 .language {
   display: flex;
   justify-content: flex-start;
 }
-.australia1-1-parent {
+.it-parent-1 {
   flex-direction: row;
   align-items: center;
   gap: var(--gap-7xs);
@@ -234,7 +251,7 @@
   border: 1px solid var(--color-lightgray);
   overflow: hidden;
   flex-direction: column;
-  padding: 17px 24px;
+  padding: 17px 21px;
   align-items: flex-start;
 }
 .frame2,
@@ -251,7 +268,7 @@
   mix-blend-mode: difference;
 }
 .frame2 {
-  width: 638.3px;
+  width: 645.3px;
   overflow: hidden;
   color: var(--color-black);
 }
@@ -285,7 +302,7 @@
   justify-content: flex-start;
 }
 .rectangle-parent5 {
-  width: 217px;
+  width: 250px;
   height: 19px;
   flex-direction: row;
   align-items: center;
@@ -302,49 +319,26 @@
   align-items: flex-start;
   gap: var(--gap-xl);
 }
-.register1 {
-  position: relative;
-  font-weight: 500;
-  display: inline-block;
-  width: 57.57px;
-  height: 15.13px;
-  flex-shrink: 0;
-}
-.register-wrapper {
-  position: absolute;
-  top: 508px;
-  left: 4.23px;
-  border-radius: var(--br-11xl);
+.register-submit{
   background-color: var(--color-black);
+  color: var(--color-white);
   width: 431.77px;
   height: 68.75px;
+  border-radius: var(--br-11xl);
   display: flex;
   flex-direction: column;
   padding: 26.125px 177.8476104736328px;
-  box-sizing: border-box;
-  align-items: flex-start;
-  justify-content: flex-end;
-  text-align: right;
-  color: var(--color-white);
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+}
+.register-submit:hover{
+  background-color: #2980b9;
 }
 .form {
   position: relative;
   width: 436px;
   height: 700px;
-}
-.log-in {
-  font-weight: 600;
-  color: #fec00f;
-}
-.already-have-an-container {
-  position: undefined;
-  text-align: right;
-  display: inline-block;
-  height: 11px;
-  margin-right: 15px;
-  margin-top: -11px;
-  color: var(--color-black);
-  font-family: var(--font-urbanist);
 }
 .frame1,
 .frame3 {
