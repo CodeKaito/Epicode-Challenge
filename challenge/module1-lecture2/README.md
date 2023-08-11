@@ -1,10 +1,15 @@
+Visit the webpage here: https://codekaito.github.io/Epicode-Challenge/challenge/module1-lecture2
 
-  # echotunes
+# Crea una pagina di registrazione per un app di music streaming!
+Crea una web page con un form al suo interno per raccogliere dati da parte dell’utente.
+Il form deve contenere degli input fields per ottenere le seguenti informazioni:
 
-  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
-
-  To preview and run the project on your device:
-  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
-  2) In the terminal, run `npm install`
-  3) Run `npm start` to view project in browser
-  
+- nome (con un type="text")
+- cognome (con un type="text")
+- indirizzo email (con un type="email")
+- password (con un type="password")
+- data di nascita (con un type="date")
+- numero di telefono (con un type="number")
+- qualche checkbox per selezionare i propri gusti musicali (ciascuna con un type="checkbox")
+- accettazione dei termini e condizioni (con un type="radio")
+- bottone type="submit" con la scritta “Invia registrazione” che una volta cliccato faccia apparire un popup con la scritta “Registrazione inviata!”
