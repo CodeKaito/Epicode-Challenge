@@ -92,8 +92,22 @@ footer {
     padding: 22px;
     margin-top: 56px;
     color: white;
-    background: linear-gradient(to bottom, #5a917a, #03644c);
     border-radius: 6px;
+}
+.braies {
+    background: linear-gradient(to bottom, #5a917a, #03644c);
+}
+.dobbiaco {
+    background: linear-gradient(to bottom, #99cdda, #1c7da3);
+}
+.anterselva {
+    background: linear-gradient(to bottom, #064924, #137586);
+}
+.landro {
+    background: linear-gradient(to bottom, #3fcc14, #137586);
+}
+.hermoso {
+    background: linear-gradient(to bottom, #97cfe0, #09446b);
 }
 .homepage {
     color: white;
