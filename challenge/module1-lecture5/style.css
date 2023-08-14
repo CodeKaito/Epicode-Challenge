@@ -3,8 +3,12 @@
 body {
     display: flex;
     margin: 0;
-    eight: 100vh;
+    height: 100vh;
     font-family: 'Roboto', sans-serif;
+}
+
+img {
+    cursor: pointer;
 }
 
 .main {
@@ -32,10 +36,6 @@ body {
     cursor: pointer;
 }
 
-.icon ion-icon {
-    font-size: 2em;
-}
-
 .icon p {
     margin: 0;
 }
@@ -48,37 +48,51 @@ body {
     height: 50%;
 }
 
-.search-wrapper {
-    display: flex;
-    height: 50%;
-    width: 30%;
-}
-
-.search-wrapper input {
-    width: 100%;
-    padding: 0 1em;
-}
-
 .icons-wrapper {
     display: flex;
     align-items: center;
+    margin-right: 7.5rem;
+    width: 0.4375rem;
+}
+
+.flex-div {
+    align-items: center;
+    display: flex;
+
+}
+
+.nav-middle .search {
+    border: 1px solid #ccc;
+    border-radius: 1.875rem;
+    margin-right: 0.9375rem;
+    padding: 0.5rem 0.75rem;
+
+}
+
+.nav-middle .search input {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    width: 25rem;
+
 }
 
 .top-icon {
     font-size: 2em;
     padding: 0 0.5em;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
 }
 
-.mic-icon {
-    display: flex;
-    align-items: center;
+.nav-right {
+    margin-right: 3.5rem;
 }
 
-.search-btn {
-    padding: 0 0.7em;
-    font-size: 1.3em;
-    display: flex;
-    align-items: center;
+.nav-right i {
+    cursor: pointer;
+    margin-right: 1.5625rem;
+    width: 0.625rem;
 }
 
 .content {
@@ -111,4 +125,10 @@ body {
 
 .content-title > p {
     margin-top: 0;
+}
+
+.user {
+    border-radius: 50%;
+    margin-right: 0;
+    width: 2.8125rem;
 }
