@@ -10,111 +10,181 @@
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/b94f5696ce.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-home.css">
     <title>Youtube - Web Prep</title>
   </head>
   <body>
-    <div class="sidebar">
-      <div class="icon">
-        <i class="fa-solid fa-bars menu" id="menu"></i>
+    <div class="flex-div nav">
+      <div class="nav-left flex-div">
+          <i class="fa-solid fa-bars menu" id="menu"></i>
+          <img src="./assets/logo.png" class="logo" alt="Youtube Logo">
       </div>
-      <div class="icon">
-        <i class="fa-solid fa-house"></i>
-        <p>Home</p>
-      </div>
-      <div class="icon">
-        <i class="fa-solid fa-compass"></i>
-        <p>Explore</p>
-      </div>
-      <div class="icon">
-        <i class="fa-solid fa-bolt"></i>
-        <p>Shorts</p>
-      </div>
-      <div class="icon">
-        <i class="fa-brands fa-youtube"></i>
-        <p>Shorts</p>
-      </div>
-    </div>
-    <div class="main">
-      <div class="topbar">
-        <img src="./assets/logo.png" class="logo" alt="Youtube Logo">
-        <div class="nav-middle flex-div">
+      <div class="nav-middle flex-div">
           <div class="search flex-div">
               <input type="text" placeholder="Search" id="">
               <i class="fa-solid fa-magnifying-glass"></i>
           </div>
           <i class="fa-solid fa-microphone mic"></i>
       </div>
-        <div class="nav-right flex-div">
+      <div class="nav-right flex-div">
           <i class="fa-solid fa-braille"></i>
           <i class="fa-solid fa-bell"></i>
           <i class="fa-solid fa-video-slash"></i>
           <img src="./assets/user.jpeg" class="user" alt="User's Image">
       </div>
-      </div>
-      <div class="content">
-        <div class="content-item">
-          <img src="./assets/epicode_thumb.png" class="content-thumbnail" alt="thumbnail" />
-          <div class="content-info">
-            <img src="./assets/epicode-logo.png" class="content-thumbnail_info" alt="thumbnail-info" />
-            <div class="content-title">
-              <h1>Title</h1>
-              <p>Description</p>
-            </div>
-          </div>
-        </div>
-        <div class="content-item">
-          <img src="./assets/epicode_thumb.png" class="content-thumbnail" alt="thumbnail" />
-          <div class="content-info">
-            <img src="./assets/epicode-logo.png" class="content-thumbnail_info" alt="thumbnail-info" />
-            <div class="content-title">
-              <h1>Title</h1>
-              <p>Description</p>
-            </div>
-          </div>
-        </div>
-        <div class="content-item">
-          <img src="./assets/epicode_thumb.png" class="content-thumbnail" alt="thumbnail" />
-          <div class="content-info">
-            <img src="./assets/epicode-logo.png" class="content-thumbnail_info" alt="thumbnail-info" />
-            <div class="content-title">
-              <h1>Title</h1>
-              <p>Description</p>
-            </div>
-          </div>
-        </div>
-        <div class="content-item">
-          <img src="./assets/epicode_thumb.png" class="content-thumbnail" alt="thumbnail" />
-          <div class="content-info">
-            <img src="./assets/epicode-logo.png" class="content-thumbnail_info" alt="thumbnail-info" />
-            <div class="content-title">
-              <h1>Title</h1>
-              <p>Description</p>
-            </div>
-          </div>
-        </div>
-        <div class="content-item">
-          <img src="./assets/epicode_thumb.png" class="content-thumbnail" alt="thumbnail" />
-          <div class="content-info">
-            <img src="./assets/epicode-logo.png" class="content-thumbnail_info" alt="thumbnail-info" />
-            <div class="content-title">
-              <h1>Title</h1>
-              <p>Description</p>
-            </div>
-          </div>
-        </div>
-        <div class="content-item">
-          <img src="./assets/epicode_thumb.png" class="content-thumbnail" alt="thumbnail" />
-          <div class="content-info">
-            <img src="./assets/epicode-logo.png" class="content-thumbnail_info" alt="thumbnail-info" />
-            <div class="content-title">
-              <h1>Title</h1>
-              <p>Description</p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
+    <div class="main">
+      <div class="sidebar">
+        <div class="short">
+            <a href="#">
+                <i class="fa-solid fa-house"></i>
+                <p>Home</p>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-compass"></i>
+                <p>Explore</p>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-bolt"></i>
+                <p>Shorts</p>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-youtube"></i>
+                <p>Subscriptions</p>
+            </a>
+            <hr>
+            <a href="#">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+                <p>History</p>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-photo-film"></i>
+                <p>Library</p>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-clock"></i>
+                <p>Watch later</p>
+            </a>
+            <hr>
+        </div>
+        <div class="more">
+            <h6>MORE FROM YOUTUBE</h6>
+            <a href="#">
+                <i class="fa-brands fa-youtube"></i>
+                <p>Youtube Premium</p>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-gamepad"></i>
+                <p>Gaming</p>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-tower-broadcast"></i>
+                <p>Live</p>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-trophy"></i>
+                <p>Sports</p>
+            </a>
+            <hr>
+            <a href="#">
+                <i class="fa-solid fa-gear"></i>
+                <p>Settings</p>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-circle-question"></i>
+                <p>Help</p>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-comment"></i>
+                <p>Send Feedback</p>
+            </a>
+            <hr>
+        </div>
+        <div class="foot">
+            <small>About</small>
+            <small>Press</small>
+            <small>Copyright</small>
+            <small>Contact</small>
+            <small>Developers</small>
+            <small>Advertise</small>
+            <br>
+            <br>
+            <small>Terms</small>
+            <small>Privacy</small>
+            <small>Policy & Saftey</small>
+            <br>
+            <small>How YouTube Works</small>
+            <br>
+            <small>Test new features</small>
+            <br>
+            <br>
+            <small><i class="fa-solid fa-copyright"></i> 2023 Google LLC </small>
+        </div>
+        </div>
+        <div class="content">
+          <div class="content-item">
+            <img src="./assets/epicode_thumb.png" class="content-thumbnail" alt="thumbnail" />
+            <div class="content-info">
+              <img src="./assets/epicode-logo.png" class="content-thumbnail_info" alt="thumbnail-info" />
+              <div class="content-title">
+                <h1>Title</h1>
+                <p>Description</p>
+              </div>
+            </div>
+          </div>
+          <div class="content-item">
+            <img src="./assets/epicode_thumb.png" class="content-thumbnail" alt="thumbnail" />
+            <div class="content-info">
+              <img src="./assets/epicode-logo.png" class="content-thumbnail_info" alt="thumbnail-info" />
+              <div class="content-title">
+                <h1>Title</h1>
+                <p>Description</p>
+              </div>
+            </div>
+          </div>
+          <div class="content-item">
+            <img src="./assets/epicode_thumb.png" class="content-thumbnail" alt="thumbnail" />
+            <div class="content-info">
+              <img src="./assets/epicode-logo.png" class="content-thumbnail_info" alt="thumbnail-info" />
+              <div class="content-title">
+                <h1>Title</h1>
+                <p>Description</p>
+              </div>
+            </div>
+          </div>
+          <div class="content-item">
+            <img src="./assets/epicode_thumb.png" class="content-thumbnail" alt="thumbnail" />
+            <div class="content-info">
+              <img src="./assets/epicode-logo.png" class="content-thumbnail_info" alt="thumbnail-info" />
+              <div class="content-title">
+                <h1>Title</h1>
+                <p>Description</p>
+              </div>
+            </div>
+          </div>
+          <div class="content-item">
+            <img src="./assets/epicode_thumb.png" class="content-thumbnail" alt="thumbnail" />
+            <div class="content-info">
+              <img src="./assets/epicode-logo.png" class="content-thumbnail_info" alt="thumbnail-info" />
+              <div class="content-title">
+                <h1>Title</h1>
+                <p>Description</p>
+              </div>
+            </div>
+          </div>
+          <div class="content-item">
+            <img src="./assets/epicode_thumb.png" class="content-thumbnail" alt="thumbnail" />
+            <div class="content-info">
+              <img src="./assets/epicode-logo.png" class="content-thumbnail_info" alt="thumbnail-info" />
+              <div class="content-title">
+                <h1>Title</h1>
+                <p>Description</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+      
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"

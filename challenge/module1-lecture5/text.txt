@@ -1,0 +1,34 @@
+<div class="sidebar">
+        <div class="short">
+            <a href="#">
+                <i class="fa-solid fa-house"></i>
+                <p>Home</p>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-compass"></i>
+                <p>Explore</p>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-bolt"></i>
+                <p>Shorts</p>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-youtube"></i>
+                <p>Subscriptions</p>
+            </a>
+            <hr>
+            <a href="#">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+                <p>History</p>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-photo-film"></i>
+                <p>Library</p>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-clock"></i>
+                <p>Watch later</p>
+            </a>
+            <hr>
+        </div>
+      </div>
