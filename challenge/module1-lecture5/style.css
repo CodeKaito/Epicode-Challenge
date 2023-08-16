@@ -18,6 +18,67 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.category {
+    align-items: center;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+    height: 60px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    top: 60px;
+    background-color: #fff;
+    justify-content: space-between;
+    padding: 10px 2%;
+    position: sticky;
+    z-index: 10;
+}
+
+.category-btn {
+    background: #f0f0f0;
+    border: 1px solid #dbdbdb;
+    color: #242424;
+    cursor: pointer;
+    flex: 0 0 auto;
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    text-transform: capitalize;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    margin-top: -1rem;
+    padding-top: 20px;
+}
+
+.content-thumbnail {
+    width: 100%;
+    margin-left: auto;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.content-info {
+    display: flex;
+    align-items: center;
+}
+
+.content-info > img {
+    width: 15%;
+}
+
+.content-title {
+    margin: 5px;
+    margin-left: 20px;
+    height: 40%;
+}
+
+.content-title > p {
+    margin-top: 0;
+}
+
 .flex-div {
     align-items: center;
     display: flex;
@@ -109,28 +170,6 @@ img {
     width: 25rem;
 }
 
-.subscribe a {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    width: fit fit-content;
-}
-
-.subscribe a p {
-    margin: 10px 15px;
-
-}
-
-.subscribe a img {
-    border-radius: 50%;
-    margin: 0;
-    margin-right: 5px;
-    width: 37px;
-}
-
-
 .short a {
     align-items: center;
     display: flex;
@@ -154,12 +193,10 @@ img {
     height: 30px;
     margin-right: 20px;
     width: 30px;
-
 }
 
 .short a:first-child {
     color: red;
-
 }
 
 .sidebar hr {
@@ -178,40 +215,4 @@ img {
     border-radius: 50%;
     margin-right: 0;
     width: 2.8125rem;
-
-}
-
-.content {
-    height: 100%;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
-    margin-top: -1rem;
-    padding-top: 20px;
-}
-
-.content-thumbnail {
-    width: 100%;
-    margin-left: auto;
-    object-fit: cover;
-    padding: 5px;
-}
-
-.content-info {
-    display: flex;
-    align-items: center;
-}
-
-.content-info > img {
-    width: 15%;
-}
-
-.content-title {
-    margin: 5px;
-    margin-left: 20px;
-    height: 40%;
-}
-
-.content-title > p {
-    margin-top: 0;
 }
