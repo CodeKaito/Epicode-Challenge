@@ -10,8 +10,8 @@ a {
 }
 
 .active {
-    color: #fff;
-    background: #242424;
+    background: #000000;
+    color: #ffffff;
 }
 
 body {
@@ -27,22 +27,19 @@ body {
     overflow-y: hidden;
     top: 60px;
     background-color: #fff;
-    justify-content: space-between;
     padding: 10px 2%;
     position: sticky;
     z-index: 10;
 }
 
 .category-btn {
-    background: #f0f0f0;
     border: 1px solid #dbdbdb;
-    color: #242424;
-    cursor: pointer;
     flex: 0 0 auto;
     font-size: 15px;
     margin-right: 10px;
     padding: 5px 10px;
     text-transform: capitalize;
+    border-radius: 10px;
 }
 
 .content {
@@ -99,7 +96,6 @@ body {
 
 img {
     cursor: pointer;
-
 }
 
 .logo {
@@ -109,6 +105,7 @@ img {
 
 .mic {
     width: 6rem;
+    cursor: pointer;
 }
 
 .more a i {
@@ -167,7 +164,11 @@ img {
     background-color: transparent;
     border: 0;
     outline: 0;
-    width: 25rem;
+    width: 40rem;
+}
+
+.search-glass {
+    cursor: pointer;
 }
 
 .short a {
