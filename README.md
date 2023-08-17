@@ -2,7 +2,7 @@
 
 Benvenuto nel repository del pre-corso di Web Development di Epicode! In questo repository, troverai i progetti e le sfide assegnate durante il pre-corso. Queste attività ti aiuteranno a sviluppare le tue competenze di programmazione e prepararti per il corso completo di Web Development.
 
-## Struttura del Repository
+## Struttura del Repository 
 
 - 📁 **Progetti**: Questa cartella contiene i progetti che verranno sviluppati durante il pre-corso. Ogni progetto avrà la propria cartella con il codice sorgente e le istruzioni.
 
